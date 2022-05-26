@@ -1,11 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
-
-import { urlFor } from '../lib/client'
+import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer-container'>
+      <p>2022 MJtech All rights reserved</p>
+      <p className='icons'>
+        <AiFillInstagram />
+        <AiOutlineTwitter />
+      </p>
+    </div>
   )
 }
 
